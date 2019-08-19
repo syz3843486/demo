@@ -1,0 +1,9 @@
+<root>
+     <Panel>
+          <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/main.xml" />
+          <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/bubble.xml" />
+          <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/evade.xml" />
+          <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/combo.xml" />
+          <!-- <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/menu.xml" /> -->
+     </Panel>
+</root>

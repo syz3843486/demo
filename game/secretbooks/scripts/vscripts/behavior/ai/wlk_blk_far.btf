@@ -1,0 +1,592 @@
+{
+    "root": {
+        "@config": "NPC_AI",
+        "node": {
+            "@class": "ParallelSeqNode",
+            "arg": [
+                {
+                    "@alias": "comment",
+                    "@value": ""
+                },
+                {
+                    "@alias": "debug",
+                    "@value": "all0"
+                },
+                {
+                    "@alias": "debug_open",
+                    "@value": "1"
+                }
+            ],
+            "node": [
+                {
+                    "@class": "SelectorNode",
+                    "arg": [
+                        {
+                            "@alias": "comment",
+                            "@value": ""
+                        },
+                        {
+                            "@alias": "debug",
+                            "@value": "1"
+                        },
+                        {
+                            "@alias": "debug_open",
+                            "@value": "break_or"
+                        }
+                    ],
+                    "node": [
+                        {
+                            "@class": "CmpIntVarCond",
+                            "arg": [
+                                {
+                                    "@alias": "var_name",
+                                    "@value": "status"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "1"
+                                },
+                                {
+                                    "@alias": "value",
+                                    "@value": "0"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "ParallelSeqNode",
+                            "arg": [
+                                {
+                                    "@alias": "comment",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": "1"
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": "all_or"
+                                }
+                            ],
+                            "node": [
+                                {
+                                    "@class": "SetPosActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "refer_type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "dis",
+                                            "@value": "1000"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "IntVarAssignActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "name",
+                                            "@value": "status"
+                                        },
+                                        {
+                                            "@alias": "value",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": "status2"
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "MoveActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "target",
+                                            "@value": "player"
+                                        },
+                                        {
+                                            "@alias": "type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@class": "SequenceNode",
+                    "arg": [
+                        {
+                            "@alias": "comment",
+                            "@value": ""
+                        },
+                        {
+                            "@alias": "debug",
+                            "@value": "add1"
+                        },
+                        {
+                            "@alias": "debug_open",
+                            "@value": "1"
+                        }
+                    ],
+                    "node": [
+                        {
+                            "@class": "CmpIntVarCond",
+                            "arg": [
+                                {
+                                    "@alias": "var_name",
+                                    "@value": "status"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "4"
+                                },
+                                {
+                                    "@alias": "value",
+                                    "@value": "1"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "TestAbilityCond",
+                            "arg": [
+                                {
+                                    "@alias": "target_type",
+                                    "@value": "player"
+                                },
+                                {
+                                    "@alias": "ability_radius",
+                                    "@value": "500"
+                                },
+                                {
+                                    "@alias": "offset",
+                                    "@value": "1*600"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": "hit111"
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "ParallelSeqNode",
+                            "arg": [
+                                {
+                                    "@alias": "comment",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ],
+                            "node": [
+                                {
+                                    "@class": "CastAbilityActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "target_type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "pos_type",
+                                            "@value": "2"
+                                        },
+                                        {
+                                            "@alias": "ability_type",
+                                            "@value": "2"
+                                        },
+                                        {
+                                            "@alias": "ability_idx",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "IntVarAssignActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "name",
+                                            "@value": "status"
+                                        },
+                                        {
+                                            "@alias": "value",
+                                            "@value": "2"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": "set status 3"
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "AddTimerActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "name",
+                                            "@value": "jump"
+                                        },
+                                        {
+                                            "@alias": "duration",
+                                            "@value": "300"
+                                        },
+                                        {
+                                            "@alias": "loop",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@class": "SequenceNode",
+                    "arg": [
+                        {
+                            "@alias": "comment",
+                            "@value": ""
+                        },
+                        {
+                            "@alias": "debug",
+                            "@value": "add3"
+                        },
+                        {
+                            "@alias": "debug_open",
+                            "@value": "1"
+                        }
+                    ],
+                    "node": [
+                        {
+                            "@class": "CheckTimerStatusCond",
+                            "arg": [
+                                {
+                                    "@alias": "name",
+                                    "@value": "jump"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "2"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "CheckTimerStatusCond",
+                            "arg": [
+                                {
+                                    "@alias": "name",
+                                    "@value": "jump"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "1"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "CmpIntVarCond",
+                            "arg": [
+                                {
+                                    "@alias": "var_name",
+                                    "@value": "status"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "4"
+                                },
+                                {
+                                    "@alias": "value",
+                                    "@value": "2"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": "cmp stat3"
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "ParallelSeqNode",
+                            "arg": [
+                                {
+                                    "@alias": "comment",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": "pppp"
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": "1"
+                                }
+                            ],
+                            "node": [
+                                {
+                                    "@class": "CastAbilityActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "target_type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "pos_type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "ability_type",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "ability_idx",
+                                            "@value": "5"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "SpeechBubbleActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "text",
+                                            "@value": "别跑~~"
+                                        },
+                                        {
+                                            "@alias": "duration",
+                                            "@value": "3"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "IntVarAssignActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "name",
+                                            "@value": "status"
+                                        },
+                                        {
+                                            "@alias": "value",
+                                            "@value": "3"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": "4"
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@class": "AddTimerActionNode",
+                                    "arg": [
+                                        {
+                                            "@alias": "name",
+                                            "@value": "dead"
+                                        },
+                                        {
+                                            "@alias": "duration",
+                                            "@value": "5000"
+                                        },
+                                        {
+                                            "@alias": "loop",
+                                            "@value": "1"
+                                        },
+                                        {
+                                            "@alias": "debug",
+                                            "@value": ""
+                                        },
+                                        {
+                                            "@alias": "debug_open",
+                                            "@value": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@class": "SequenceNode",
+                    "arg": [
+                        {
+                            "@alias": "comment",
+                            "@value": ""
+                        },
+                        {
+                            "@alias": "debug",
+                            "@value": "add4"
+                        },
+                        {
+                            "@alias": "debug_open",
+                            "@value": "1"
+                        }
+                    ],
+                    "node": [
+                        {
+                            "@class": "CmpIntVarCond",
+                            "arg": [
+                                {
+                                    "@alias": "var_name",
+                                    "@value": "status"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "4"
+                                },
+                                {
+                                    "@alias": "value",
+                                    "@value": "3"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "CheckTimerStatusCond",
+                            "arg": [
+                                {
+                                    "@alias": "name",
+                                    "@value": "dead"
+                                },
+                                {
+                                    "@alias": "operator",
+                                    "@value": "1"
+                                },
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        },
+                        {
+                            "@class": "ForceKilledActionNode",
+                            "arg": [
+                                {
+                                    "@alias": "debug",
+                                    "@value": ""
+                                },
+                                {
+                                    "@alias": "debug_open",
+                                    "@value": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

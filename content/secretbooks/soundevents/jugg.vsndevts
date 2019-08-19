@@ -1,0 +1,29 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	jug_baofa = 
+	{
+		type = "dota_src1_2d"
+		vsnd_files = 
+		[
+			"sounds/vo/juggernaut/jug_ability_bladefury_02.vsnd",
+			"sounds/vo/juggernaut/jug_ability_bladefury_03.vsnd",
+			"sounds/vo/juggernaut/jug_ability_bladefury_05.vsnd",
+			"sounds/vo/juggernaut/jug_ability_bladefury_06.vsnd",
+			"sounds/vo/juggernaut/jug_ability_bladefury_07.vsnd",
+			"sounds/vo/juggernaut/jug_ability_bladefury_09.vsnd",
+		]
+
+		weights =
+        [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+        ]
+        
+		volume = "5.000000"
+		pitch = "1.000000"
+	}
+}

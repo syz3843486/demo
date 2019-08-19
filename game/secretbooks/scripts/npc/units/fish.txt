@@ -1,0 +1,650 @@
+// Dota2 Editor
+// Get latest version: https://github.com/zombieJ/nw-dota2editor
+
+"DOTAUnits"
+{
+	// =================================================================================
+	// npc_dota_creature_faceless_void
+	// =================================================================================
+	"npc_dota_creature_faceless_void1"
+	{
+		// General
+		// ----------------------------------------------------------------
+		"Model"	"models/heroes/faceless_void/faceless_void.vmdl"
+		// Model.
+		"BaseClass"	"npc_dota_creature"
+		"SoundSet"	"n_creep_Ranged"
+		"GameSoundsFile"	"soundevents/game_sounds_creeps.vsndevts"
+		"Level"	"14"
+		"ModelScale"	"1"
+		// Abilities
+		// ----------------------------------------------------------------
+		"Ability1"	"faceless_void_time_walk"
+		"Ability2"	"faceless_void_time_dilation"
+		"Ability3"	"faceless_void_time_lock"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"faceless_void_chronosphere"
+		// Armor
+		// ----------------------------------------------------------------
+		// Physical protection.
+		"ArmorPhysical"	"1"
+		// Attack
+		// ----------------------------------------------------------------
+		"AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
+		// Damage range min.
+		"AttackDamageMin"	"30"
+		// Damage range max.
+		"AttackDamageMax"	"36"
+		// Speed of attack.
+		"AttackRate"	"1.6"
+		// Normalized time in animation cycle to attack.
+		"AttackAnimationPoint"	"0.4"
+		// Range within a target can be acquired.
+		"AttackAcquisitionRange"	"800"
+		// Range within a target can be attacked.
+		"AttackRange"	"150"
+		// Particle system model for projectile.
+		"ProjectileModel"	"particles/neutral_fx/gnoll_base_attack.vpcf"
+		// Speed of projectile.
+		"ProjectileSpeed"	"1500"
+		// Bounds
+		// ----------------------------------------------------------------
+		"RingRadius"	"40"
+		"HealthBarOffset"	"170"
+		// Bounty
+		// ----------------------------------------------------------------
+		// Experience earn.
+		"BountyXP"	"24"
+		// Gold earned min.
+		"BountyGoldMin"	"21"
+		// Gold earned max.
+		"BountyGoldMax"	"29"
+		// Movement
+		// ----------------------------------------------------------------
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		// Speed.
+		"MovementSpeed"	"270"
+		// Status
+		// ----------------------------------------------------------------
+		// Base health.
+		"StatusHealth"	"75"
+		// Health regeneration rate.
+		"StatusHealthRegen"	"0.5"
+		// Base mana.
+		"StatusMana"	"1000"
+		// Mana regeneration rate.
+		"StatusManaRegen"	"0.0"
+		// Vision
+		// ----------------------------------------------------------------
+		// Range of vision during day light.
+		"VisionDaytimeRange"	"400"
+		// Range of vision at night time.
+		"VisionNighttimeRange"	"400"
+		// Team
+		// ----------------------------------------------------------------
+		// Team name.
+		"TeamName"	"DOTA_TEAM_NEUTRALS"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		// Creature Data
+		// ----------------------------------------------------------------
+		"Creature"
+		{
+			// Level Up
+			"HPGain"	"50"
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"MoveSpeedGain"	"1"
+			"BountyGain"	"3"
+			"XPGain"	"15"
+			"AttachWearables"	{}
+		}
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"HasInventory"	"1"
+		"ConsideredHero"	"1"
+		"Ability10"	""
+		"Ability11"	""
+		"Ability12"	""
+		"Ability13"	""
+		"Ability14"	""
+		"Ability15"	""
+		"Ability16"	""
+	}
+
+	"npc_data_creature_slardar1"
+	{
+		"BaseClass"	"npc_dota_creature"
+		"Ability1"	"slardar_sprint"
+		"Ability2"	"slardar_slithereen_crush"
+		"Ability3"	"slardar_bash"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"slardar_amplify_damage"
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	""
+		"Ability11"	""
+		"Ability12"	""
+		"Ability13"	""
+		"Ability14"	""
+		"Ability15"	""
+		"Ability16"	""
+		"Model"	"models/heroes/slardar/slardar.vmdl"
+		"ModelScale"	"1"
+		"Level"	"20"
+		"HasInventory"	"1"
+		"ConsideredHero"	"1"
+		"BountyXP"	"24"
+		"BountyGoldMin"	"21"
+		"BountyGoldMax"	"25"
+		"HealthBarOffset"	"170"
+		"RingRadius"	"40"
+		"SoundSet"	"Hero_Slardar"
+		"GameSoundsFile"	"soundevents/voscripts/game_sounds_vo_slardar.vsndevts"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"	"100"
+		"AttackDamageMax"	"100"
+		"AttackRate"	"0.4"
+		"AttackAnimationPoint"	"0.4"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"	"150"
+		"ArmorPhysical"	"1"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"	"300"
+		"StatusHealth"	"75"
+		"StatusHealthRegen"	"0.5"
+		"StatusMana"	"1000"
+		"StatusManaRegen"	"1"
+		"StatusStartingMana"	"1000"
+		"VisionDaytimeRange"	"5000"
+		"VisionNighttimeRange"	"5000"
+		"Creature"
+		{
+			"HPGain"	"50"
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"MoveSpeedGain"	"1"
+			"BountyGain"	"3"
+			"XPGain"	"15"
+		}
+		"TeamName"	"DOTA_TEAM_NEUTRALS"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}
+
+	"npc_data_creature_vengefulspirit1"
+	{
+		"BaseClass"	"npc_dota_creature"
+		"Ability1"	"vengefulspirit_magic_missile"
+		"Ability2"	"vengefulspirit_wave_of_terror"
+		"Ability3"	"vengefulspirit_command_aura"
+		"Ability4"	"generic_hidden"
+		"Ability5"	"generic_hidden"
+		"Ability6"	"vengefulspirit_nether_swap"
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	""
+		"Ability11"	""
+		"Ability12"	""
+		"Ability13"	""
+		"Ability14"	""
+		"Ability15"	""
+		"Ability16"	""
+		"Model"	"models/heroes/vengeful/vengeful.vmdl"
+		"ModelScale"	"1"
+		"Level"	"20"
+		"HasInventory"	"1"
+		"ConsideredHero"	"1"
+		"BountyXP"	"24"
+		"BountyGoldMin"	"21"
+		"BountyGoldMax"	"25"
+		"HealthBarOffset"	"170"
+		"RingRadius"	"40"
+		"SoundSet"	"Hero_VengefulSpirit"
+		"GameSoundsFile"	"soundevents/game_sounds_heroes/game_sounds_vengefulspirit.vsndevts"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"	"100"
+		"AttackDamageMax"	"100"
+		"AttackRate"	"0.4"
+		"AttackAnimationPoint"	"0.4"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"	"150"
+		"ArmorPhysical"	"1"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"	"300"
+		"StatusHealth"	"75"
+		"StatusHealthRegen"	"0.5"
+		"StatusMana"	"1000"
+		"StatusManaRegen"	"1"
+		"StatusStartingMana"	"1000"
+		"VisionDaytimeRange"	"5000"
+		"VisionNighttimeRange"	"5000"
+		"Creature"
+		{
+			"HPGain"	"50"
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"MoveSpeedGain"	"1"
+			"BountyGain"	"3"
+			"XPGain"	"15"
+		}
+		"TeamName"	"DOTA_TEAM_NOTEAM"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}
+
+	"npc_data_creature_warlock1"
+	{
+		"BaseClass"	"npc_dota_creature"
+		"Ability1"		"warlock_fatal_bonds"
+		"Ability2"		"warlock_shadow_word"
+		"Ability3"		"warlock_upheaval"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"warlock_rain_of_chaos"
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	""
+		"Ability11"	""
+		"Ability12"	""
+		"Ability13"	""
+		"Ability14"	""
+		"Ability15"	""
+		"Ability16"	""
+		"Model"	"models/heroes/warlock/warlock.vmdl"
+		"ModelScale"	"1"
+		"Level"	"20"
+		"HasInventory"	"1"
+		"ConsideredHero"	"1"
+		"BountyXP"	"24"
+		"BountyGoldMin"	"21"
+		"BountyGoldMax"	"25"
+		"HealthBarOffset"	"170"
+		"RingRadius"	"40"
+		"SoundSet"	"Hero_Warlock"
+		"GameSoundsFile"	"soundevents/game_sounds_heroes/game_sounds_warlock.vsndevts"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"	"100"
+		"AttackDamageMax"	"100"
+		"AttackRate"	"0.4"
+		"AttackAnimationPoint"	"0.4"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"	"150"
+		"ArmorPhysical"	"1"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"	"300"
+		"StatusHealth"	"75"
+		"StatusHealthRegen"	"0.5"
+		"StatusMana"	"1000"
+		"StatusManaRegen"	"1"
+		"StatusStartingMana"	"1000"
+		"VisionDaytimeRange"	"5000"
+		"VisionNighttimeRange"	"5000"
+		"Creature"
+		{
+			"HPGain"	"50"
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"MoveSpeedGain"	"1"
+			"BountyGain"	"3"
+			"XPGain"	"15"
+		}
+		"TeamName"	"DOTA_TEAM_NOTEAM"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		"precache"
+		{
+			"model"		"models/heroes/warlock/warlock_demon.vmdl"
+		}
+		"particle_folder"		"particles/units/heroes/hero_warlock"
+		"RenderablePortrait"
+		{
+			"Particles"
+			{
+				"particles/units/heroes/hero_warlock/warlock_loadout.vpcf"		"loadout"
+			}
+		}
+		"ItemSlots"
+		{
+"0"
+{
+	"SlotIndex"		"0"
+	"SlotName"		"weapon"
+	"SlotText"		"#LoadoutSlot_Weapon"
+	"TextureWidth"		"256"
+	"TextureHeight"		"256"
+	"MaxPolygonsLOD0"		"1000"
+	"MaxPolygonsLOD1"		"500"
+}
+			"1"
+			{
+				"SlotIndex"		"1"
+				"SlotName"		"head"
+				"SlotText"		"#LoadoutSlot_Head_Accessory"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"1000"
+				"MaxPolygonsLOD1"		"500"
+			}
+			"2"
+			{
+				"SlotIndex"		"2"
+				"SlotName"		"arms"
+				"SlotText"		"#LoadoutSlot_Arms"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"800"
+				"MaxPolygonsLOD1"		"500"
+			}
+			"3"
+			{
+				"SlotIndex"		"3"
+				"SlotName"		"back"
+				"SlotText"		"#LoadoutSlot_Back"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"700"
+				"MaxPolygonsLOD1"		"500"
+			}
+			"4"
+			{
+				"SlotIndex"		"4"
+				"SlotName"		"ability_ultimate"
+				"SlotText"		"#LoadoutSlot_Warlock_Golem"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"6500"
+				"MaxPolygonsLOD1"		"3500"
+				"no_import"		"1"
+				"GeneratesUnits"
+				{
+					"0" "npc_dota_warlock_golem"
+				}
+			}
+			"5"
+			{
+				"SlotIndex"		"5"
+				"SlotName"		"offhand_weapon"
+				"SlotText"		"#LoadoutSlot_Warlock_Lantern"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"1500"
+				"MaxPolygonsLOD1"		"700"
+			}
+			"6"
+			{
+				"SlotIndex"		"6"
+				"SlotName"		"shoulder"
+				"SlotText"		"#LoadoutSlot_Shoulder"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"500"
+				"MaxPolygonsLOD1"		"350"
+			}
+			"7"
+			{
+				"SlotIndex"		"7"
+				"SlotName"		"belt"
+				"SlotText"		"#LoadoutSlot_Warlock_EvilPurse"
+				"TextureWidth"		"256"
+				"TextureHeight"		"256"
+				"MaxPolygonsLOD0"		"800"
+				"MaxPolygonsLOD1"		"600"
+			}
+			"8"
+			{
+				"SlotIndex"		"8"
+				"SlotName"		"taunt"
+				"SlotText"		"#LoadoutSlot_Taunt"
+			}
+		}
+	}
+
+
+
+	"npc_data_creature_fish"
+	{
+		"BaseClass"	"npc_dota_creature"
+		"Ability1"	"slardar_bash"
+		"Ability7"	""
+		"Ability8"	""
+		"Ability9"	""
+		"Ability10"	""
+		"Ability11"	""
+		"Ability12"	""
+		"Ability13"	""
+		"Ability14"	""
+		"Ability15"	""
+		"Ability16"	""
+		"Model"	"models/items/hex/fish_hex/fish_hex.vmdl"
+		"ModelScale"	"1"
+		"Level"	"20"
+		"HasInventory"	"1"
+		"ConsideredHero"	"1"
+		"BountyXP"	"24"
+		"BountyGoldMin"	"21"
+		"BountyGoldMax"	"25"
+		"HealthBarOffset"	"170"
+		"RingRadius"	"40"
+		"SoundSet"	"Hero_VengefulSpirit"
+		"GameSoundsFile"	"soundevents/game_sounds_heroes/game_sounds_vengefulspirit.vsndevts"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"	"100"
+		"AttackDamageMax"	"100"
+		"AttackRate"	"0.4"
+		"AttackAnimationPoint"	"0.4"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"	"150"
+		"ArmorPhysical"	"1"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"	"300"
+		"StatusHealth"	"75"
+		"StatusHealthRegen"	"0.5"
+		"StatusMana"	"1000"
+		"StatusManaRegen"	"1"
+		"StatusStartingMana"	"1000"
+		"VisionDaytimeRange"	"5000"
+		"VisionNighttimeRange"	"5000"
+		"Creature"
+		{
+			"HPGain"	"50"
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"MoveSpeedGain"	"1"
+			"BountyGain"	"3"
+			"XPGain"	"15"
+		}
+		"TeamName"	"DOTA_TEAM_NOTEAM"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+	}
+
+	"npc_data_creature_ro_warlock1"
+	{
+		"RingRadius"	"40"
+		"StatusMana"	"1000"
+		"Ability2"	"warlock_shadow_word"
+		"VisionDaytimeRange"	"5000"
+		"VisionNighttimeRange"	"5000"
+		"Level"	"25"
+		"Creature"
+		{
+			"DamageGain"	"2"
+			"ArmorGain"	"0.25"
+			"MagicResistGain"	"0.1"
+			"BountyGain"	"3"
+			"HPGain"	"50"
+			"XPGain"	"15"
+			"MoveSpeedGain"	"1"
+		}
+
+		"ConsideredHero"	"1"
+		"BountyGoldMin"	"21"
+		"BountyGoldMax"	"25"
+		"AttackDamageMin"	"100"
+		"AttackDamageMax"	"100"
+		"AttackAnimationPoint"	"0.4"
+		"AttackAcquisitionRange"	"800"
+		"AttackRange"	"150"
+		"ArmorPhysical"	"1"
+		"AttackRate"	"0.4"
+		"Ability3"	"warlock_upheaval"
+		"HealthBarOffset"	"170"
+		"CombatClassDefend"	"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"MovementCapabilities"	"DOTA_UNIT_CAP_MOVE_GROUND"
+		
+		"ItemSlots"
+		{
+			"3"
+			{
+				"SlotText"	"#LoadoutSlot_Back"
+				"MaxPolygonsLOD0"	"700"
+				"MaxPolygonsLOD1"	"500"
+				"TextureHeight"	"256"
+				"SlotIndex"	"3"
+				"SlotName"	"back"
+				"TextureWidth"	"256"
+			}
+
+			"2"
+			{
+				"SlotText"	"#LoadoutSlot_Arms"
+				"MaxPolygonsLOD0"	"800"
+				"MaxPolygonsLOD1"	"500"
+				"TextureHeight"	"256"
+				"SlotIndex"	"2"
+				"SlotName"	"arms"
+				"TextureWidth"	"256"
+			}
+
+			"0"
+			{
+				"SlotText"	"#LoadoutSlot_Weapon"
+				"MaxPolygonsLOD0"	"1000"
+				"MaxPolygonsLOD1"	"500"
+				"TextureHeight"	"256"
+				"SlotIndex"	"0"
+				"SlotName"	"weapon"
+				"TextureWidth"	"256"
+			}
+
+			"8"
+			{
+				"SlotText"	"#LoadoutSlot_Taunt"
+				"SlotIndex"	"8"
+				"SlotName"	"taunt"
+			}
+
+			"7"
+			{
+				"SlotText"	"#LoadoutSlot_Warlock_EvilPurse"
+				"MaxPolygonsLOD0"	"800"
+				"MaxPolygonsLOD1"	"600"
+				"TextureHeight"	"256"
+				"SlotIndex"	"7"
+				"SlotName"	"belt"
+				"TextureWidth"	"256"
+			}
+
+			"1"
+			{
+				"SlotText"	"#LoadoutSlot_Head_Accessory"
+				"MaxPolygonsLOD0"	"1000"
+				"MaxPolygonsLOD1"	"500"
+				"TextureHeight"	"256"
+				"SlotIndex"	"1"
+				"SlotName"	"head"
+				"TextureWidth"	"256"
+			}
+
+			"4"
+			{
+				"SlotText"	"#LoadoutSlot_Warlock_Golem"
+				"no_import"	"1"
+				"TextureHeight"	"512"
+				"SlotName"	"ability_ultimate"
+				"MaxPolygonsLOD1"	"3500"
+				"GeneratesUnits"
+				{
+					"0"	"npc_dota_warlock_golem"
+				}
+
+				"SlotIndex"	"4"
+				"MaxPolygonsLOD0"	"6500"
+				"TextureWidth"	"512"
+			}
+
+			"6"
+			{
+				"SlotText"	"#LoadoutSlot_Shoulder"
+				"MaxPolygonsLOD0"	"500"
+				"MaxPolygonsLOD1"	"350"
+				"TextureHeight"	"256"
+				"SlotIndex"	"6"
+				"SlotName"	"shoulder"
+				"TextureWidth"	"256"
+			}
+
+			"5"
+			{
+				"SlotText"	"#LoadoutSlot_Warlock_Lantern"
+				"MaxPolygonsLOD0"	"1500"
+				"MaxPolygonsLOD1"	"700"
+				"TextureHeight"	"256"
+				"SlotIndex"	"5"
+				"SlotName"	"offhand_weapon"
+				"TextureWidth"	"256"
+			}
+
+		}
+
+		"TeamName"	"DOTA_TEAM_NEUTRALS"
+		"MovementTurnRate"	"0.50000"
+		"particle_folder"	"particles/units/heroes/hero_warlock"
+		"ProjectileSpeed"	"1200"
+		"StatusManaRegen"	"1"
+		"AttackCapabilities"	"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"ModelScale"	"0.930000"
+		"CombatClassAttack"	"DOTA_COMBAT_CLASS_ATTACK_PIERCE"
+		"Ability1"	"warlock_fatal_bonds"
+		"StatusHealthRegen"	"0.5"
+		"SoundSet"	"Hero_Warlock"
+		"GameSoundsFile"	"soundevents/game_sounds_heroes/game_sounds_warlock.vsndevts"
+		"BoundsHullName"	"DOTA_HULL_SIZE_HERO"
+		"BountyXP"	"24"
+		"ArmorPhysical"	"1"
+		"BaseClass"	"npc_dota_creature"
+		"precache"
+		{
+			"model"	"models/heroes/warlock/warlock_demon.vmdl"
+		}
+
+		"HasInventory"	"1"
+		"StatusStartingMana"	"1000"
+		"Ability6"	"warlock_rain_of_chaos"
+		"Ability4"	"generic_hidden"
+		"Model"	"models/heroes/warlock/warlock.vmdl"
+		"Ability5"	"generic_hidden"
+		"UnitRelationShipClass"	"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		"StatusHealth"	"75"
+		"VoiceFile"	"soundevents/voscripts/game_sounds_vo_warlock.vsndevts"
+		"LoadoutScale"	"0.870000"
+	}
+}
+

@@ -1,0 +1,24 @@
+注释				1 AI(var1(1从var2中随机AI，2从var2中按弱点随机，3从AI表中弱点随机，4从AI表中非走位弱点随机，5从AI表中移动弱点随机)) 2 BackTime var1 时间 var2 次数(默认无数次) 3 Finish 4Refresh				
+<DESC>	<I>id	<I>minTime	<I>maxTime	<I>type	<VI>var1	<VI>var2	<VI>var3	<S>name
+	1	3	3	1	1	34	0	puck
+	2	5	5	1	1	34	0	puck
+	3	7	7	1	1	34	0	puck
+	4	9	9	1	1	33	0	lion
+	5	12	12	1	1	5	0	vengefulspirit
+	6	14	14	1	1	16	0	pudge
+	7	15	15	1	1	18	0	mirana
+	8	17	17	1	1	16	0	pudge
+	9	19	19	1	1	19	0	magnataur
+	10	20	20	4	0	0	0	
+	11	25	25	1	1	23	0	beastmaster
+	12	28	28	1	1	21	0	magnataur
+	13	30	30	1	1	22	0	magnataur
+	14	32	32	1	1	22	0	magnataur
+	15	34	34	1	1	39	0	sven
+	16	36	36	1	1	21	0	magnataur
+	17	37	37	1	1	18	0	pom
+	18	39	39	1	1	11	0	axe
+	19	40	40	1	1	24	0	bloodseeker
+	20	41	41	1	1	38	0	sniper
+	21	47	56	4	0	0	0	
+	22	47	48	2	0	0	0	

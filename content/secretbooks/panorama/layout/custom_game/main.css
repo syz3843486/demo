@@ -1,0 +1,214 @@
+.Root
+{
+	width: 100%;
+	height: 100%;
+}
+
+.HeroBar
+{
+	/*margin-top: 20px;*/
+	width: 1600px;
+	height: 5%;
+	position: 150px 0% 0%;
+    background-size: 100% 100%;
+	background-color: #333333FF;
+	/*background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_psd.vtex");*/
+}
+
+.HeroBar #HeroBarCenter
+{
+	position: 240px 0px 0px;
+	width: 10px;
+	height: 100%;
+	background-color: #FFFFFFFF;
+}
+
+.HeroImage
+{
+	width: 100px;
+	height: 100%;
+	border: 2px solid #333333FF;
+}
+
+#MainMenuPanel
+{
+	horizontal-align: center;
+	vertical-align: middle;
+	width: 35%;
+	height: 55%;
+	/*opacity-mask:url("s2r://panorama/images/masks/init_mask_01_psd.vtex") 0.5;*/
+	border: 10px solid #333333FF;
+}
+
+#BackGroundPanel
+{
+	width: 100%;
+	height: 100%;
+}
+
+#BackGroundPanel #background
+{
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+	background-image: url("file://{images}/custom_game/menu/jianke.png");
+	background-size: 100% auto; 
+	background-position: right;
+	z-index : 100;
+}
+
+#BackGroundPanel #img
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	horizontal-align: right;
+	background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+	background-image: url("file://{images}/custom_game/menu/jianke.png");
+	background-size: 100% auto; 
+	z-index : 0;
+
+}
+
+#MainMenuButtonsPanel
+{
+	horizontal-align: center;
+	vertical-align: center;
+	width: 100%;
+	height: 100%;
+	flow-children: right;
+	/*background-image: url("file://{images}/custom_game/menu/bg.psd");*/
+	/*opacity-mask:url("s2r://panorama/images/masks/init_mask_01_psd.vtex") 0.5;*/
+	border: 10px solid #333333FF;
+}
+
+#MainMenuButtons
+{
+	vertical-align: center;
+    padding:20px 5px 10px 20px;
+	width: 50%;
+	height: 100%;
+	flow-children: down;
+	z-index : 3;
+}
+
+/*#background
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("file://{images}/custom_game/menu/main_menu_bg.png");
+	opacity-mask:url("s2r://panorama/images/masks/init_mask_01_psd.vtex") 0.5;
+	border: 10px solid #111111FF;
+}*/
+
+#close_btn
+{
+	width: 50px;
+	height: 50px;
+	background-image: url("file://{images}/custom_game/menu/cha.png");
+	horizontal-align: right;
+}
+
+#close_btn:hover
+{
+	brightness:2;
+}
+
+.MenuBtn
+{
+	horizontal-align: center;
+
+	width: 70%;
+    height: 15%;
+    padding:5px 5px 5px 5px;
+    margin:10px 5px 15px 20px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    background-size: 100% 100%;
+	background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_psd.vtex");
+	z-index : 0;
+}
+
+.MenuBtn:hover 
+{
+    brightness:2;
+}
+
+.MenuText 
+{
+    padding:15px 5px 5px 5px;
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 40;
+}
+
+#mainBtn
+{
+	horizontal-align: left;
+	width: 5%;
+    height: 5%;
+	x: 1%;
+    y: 10%;
+}
+
+#btn_label{
+	padding:10px 1px 1px 1px;
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 25;
+    color: #FFFFFF;
+}
+
+.RoundRst
+{
+	width: 500px;
+	height: 500px;
+	horizontal-align: center;
+	vertical-align: center;
+	background-image: url("file://{images}/custom_game/menu/jianke.png");
+	background-size: 100% auto; 
+	border: 10px solid #333333FF;
+	visibility: collapse; 
+}
+
+.RoundRst_Panel
+{
+	width: 250px;
+	flow-children: down;
+	vertical-align: center;
+}
+
+.RoundRst_Label
+{
+	padding:0px 1px 30px 10px;
+	font-size: 25;
+    color: #000000;
+}
+
+#RoundRst_Restart_Btn
+{
+	width: 120px;
+	height: 50px;
+ 	background-size: 100% 100%;
+	background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_psd.vtex");
+	vertical-align: bottom;
+	margin:0px 1px 30px 10px;
+}
+
+#RoundRst_Restart_Btn:hover
+{
+	brightness:2;
+}
+
+#RoundRst_Restart_Lable
+{
+	font-size: 25;
+	vertical-align: center;
+}

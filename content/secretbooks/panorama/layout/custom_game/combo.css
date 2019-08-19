@@ -1,0 +1,96 @@
+.Root{
+	width: 100%;
+	height: 100%;
+}
+
+#ComboX {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    /*pre-transform-scale2d: 1;*/
+    background-image: url("file://{resources}/images/custom_game/number/x.png");
+}
+
+#Combo1 {
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+   /* pre-transform-scale2d: 1;*/
+    visibility: collapse;
+}
+
+#Combo2 {
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    /*pre-transform-scale2d: 1;*/
+    visibility: collapse;
+}
+
+#Combo3 {
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    /*pre-transform-scale2d: 1;*/
+    visibility: collapse;
+}
+
+#Combo4 {
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    pre-transform-scale2d: 1;
+    visibility: collapse;
+}
+
+#Combo5 {
+    width: 30px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 10px;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    pre-transform-scale2d: 1;
+    visibility: collapse;
+}
+
+
+#Combo_Panel {
+	position: 0px 0px 0px;
+    width:200px;
+    height:100px;    
+    flow-children: right;
+    padding: 10px;
+}
+
+
+#rs1 {
+    background-image: url("file://{resources}/images/custom_game/number/0.png");
+    background-image: url("file://{resources}/images/custom_game/number/1.png");
+    background-image: url("file://{resources}/images/custom_game/number/2.png");
+    background-image: url("file://{resources}/images/custom_game/number/3.png");
+    background-image: url("file://{resources}/images/custom_game/number/4.png");
+    background-image: url("file://{resources}/images/custom_game/number/5.png");
+    background-image: url("file://{resources}/images/custom_game/number/6.png");
+    background-image: url("file://{resources}/images/custom_game/number/7.png");
+    background-image: url("file://{resources}/images/custom_game/number/8.png");
+    background-image: url("file://{resources}/images/custom_game/number/9.png");
+    visibility: collapse;
+}
+.res{
+    visibility: collapse;
+}

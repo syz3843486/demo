@@ -1,0 +1,216 @@
+.menu_Root{
+	width: 100%;
+	height: 100%;
+}
+
+.MenuHitListener {
+    width: 100%;
+    height: 100%;
+    /*background-color: #00000077;*/
+    visibility: visible;
+}
+
+.MenuHidden.MenuHitListener {
+    visibility: collapse;
+}
+
+.MenuItems {
+    flow-children: down;
+    horizontal-align: right;
+    vertical-align: bottom;
+    margin-bottom: 120px;
+
+    transition-property: opacity, transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+    opacity: 1;
+    /*visibility: collapse;*/
+}
+
+
+.MenuItems {
+    visibility: visible;
+}
+
+.MenuItems.Hidden {
+    opacity: 0;
+    transform: translateY(200px);
+
+}
+
+.MenuItem {
+    width: 80px;
+    height: 80px;
+    horizontal-align: right;
+    /*z-index: -2;*/
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.MenuItem:hover {
+    brightness:2;
+}
+
+.MenuItem:active{
+    sound: "ui_player_beacon_appear";
+}
+
+.MenuItem #MenuItemOverlay {
+    width: 100%;
+    height: 100%;
+}
+
+.MenuItem:hover .MenuTextBackground {
+    background-color: #eacb09;
+}
+
+.MenuTextBackground {
+    width: 90px;
+    height: 24px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: -5px;
+    background-color: #000000;
+}
+
+.MenuText {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: -3px;
+}
+
+.MenuPage.Rank {
+    width: 1200px;
+    height: 900px;
+    vertical-align: center;
+    horizontal-align: center;
+
+    /*animation-name: links-and-more-button-focus;
+    animation-duration: 0.6s;
+    animation-delay: 0.0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;*/
+
+    /*transition-property: transform, pre-transform-scale2d, opacity, background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.0s;*/
+
+    box-shadow: #172a2f -4px -4px 8px 8px;
+    background-color:gradient( linear, 0% 0%, 0% 100%, from( #272d2e ), to( #121212 ) );
+
+    padding: 20px;
+
+    transition-property: transform, opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+    flow-children: down;
+}
+
+.MenuPage.Rank.Hidden{
+    transform: translatex(-1000px);
+    opacity:0.0;
+}
+
+.RankTitleAndSeason {
+    flow-children: right;
+    horizontal-align: center;
+    margin-bottom: 20px;
+}
+
+.WorldRankSeason {
+    margin-left: 20px;
+    vertical-align: bottom;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.WorldRankTitle {
+    margin-top: 10px;
+    height:80px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.WorldRanks {
+    flow-children: right;
+    width:100%;
+    height: 100%;
+}
+.WorldRankPanel {
+    flow-children: down;
+    width: fill-parent-flow(1.0);
+    height: 100%;
+}
+
+.WorldRank_MapName {
+    horizontal-align: center;
+    font-size: 30px;
+}
+
+
+.WorldRankPlayers {
+    flow-children: down;
+    width: 100%;
+    height: 100%;
+
+    overflow: squish scroll;
+}
+
+.LadderPlayerRoot {
+    width: 100%;
+    height: 40px;
+    flow-children: right;
+    border: 1px solid black;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.RankIndex {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.RankPlayerAvatar {
+    width: 40px;
+    height: 40px;
+}
+
+.RankPlayerAvatar DOTAAvatarImage {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.RankPlayerName {
+    width: fill-parent-flow(1.0);
+    height: 100%;
+}
+
+.RankPlayerName #player_user_name {
+    font-size: 20px;
+    vertical-align: center;
+    margin-left: 10px;
+}
+
+.RankRating {
+    width: 70px;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+.RankRating Label {
+    font-size: 25px;
+    horizontal-align: center;
+    vertical-align: center;
+}

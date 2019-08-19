@@ -1,0 +1,64 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/menu.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/layout/custom_game/menu.js" />
+	</scripts>
+    <snippets>
+		<snippet name="LadderPlayer">
+	        <Panel class="LadderPlayerRoot">
+	            <Panel class="RankIndex">
+	                <Label text="99" id="rank_index" />
+	            </Panel>
+	            <Panel class="RankPlayerAvatar">
+	                <DOTAAvatarImage steamid="local" id="player_avatar" />
+	            </Panel>
+	            <Panel class="RankPlayerName">
+	                <DOTAUserName steamid="local" id="player_user_name" />
+	            </Panel>
+	            <Panel class="RankRating">
+	                <Label text="9999" id="rank_text" />
+	            </Panel>
+	        </Panel>
+	    </snippet>
+	</snippets>
+	<Panel class="menu_Root" hittest="false">
+		<Panel class="MenuHitListener MenuHidden" id="menu_hit_listener" oncontextmenu="OnClickCloseMenu()" onactivate="OnClickCloseMenu()" />
+
+		<Panel class="PointsRemainingTip Hidden" id="points_remaining_tip_panel">
+            <Label text="0" id="points_remaining_button_tip" />
+        </Panel>
+
+		<Panel class="MenuItems" id="menu_items">
+			<Panel id="MenuItem_Rank" class="MenuItem" onactivate="OpenRank()">
+                <Image class="MenuItemBackground" src="s2r://panorama/images/custom_game/menu/4_png.vtex"/>
+                <Image id="MenuItemOverlay" src="s2r://panorama/images/custom_game/menu/cover_png.vtex"/>
+                <Panel class="MenuTextBackground" />
+                <Label text="#WorldRank" class="MenuText" />
+            </Panel>
+
+	       	<Panel class="MenuPage Rank" id="page_rank">
+	            <Panel class="RankTitleAndSeason">
+	                <Label class="WorldRankTitle" text="#WorldRank" id="world_rank_title" />
+	                <Label class="WorldRankSeason" text="#current_season" id="current_season" />
+	            </Panel>
+	            <Panel class="WorldRanks">
+	                <Panel class="WorldRankPanel" id="rank_1x10">
+	                    <Label class="WorldRank_MapName" text="#arena_1x10" />
+	                    <Panel class="WorldRankPlayers" id="world_rank_players_1x10" />
+	                </Panel>
+	                <Panel class="WorldRankPanel" id="rank_2x6">
+	                    <Label class="WorldRank_MapName" text="#arena_2x6" />
+	                    <Panel class="WorldRankPlayers" id="world_rank_players_2x6" />
+	                </Panel>
+	                <Panel class="WorldRankPanel" id="rank_3x4">
+	                    <Label class="WorldRank_MapName" text="#arena_3x4" />
+	                    <Panel class="WorldRankPlayers" id="world_rank_players_3x4" />
+	                </Panel>
+	            </Panel>
+	        </Panel>
+		</Panel>
+	</Panel>
+</root>

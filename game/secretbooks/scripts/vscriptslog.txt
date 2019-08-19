@@ -1,0 +1,1315 @@
+--->
+npc_dota_hero_lone_druid
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12886"}
+			"Wearable2" {"ItemDef" "5192"}
+			"Wearable3" {"ItemDef" "12880"}
+			"Wearable4" {"ItemDef" "4661"}
+			"Wearable5" {"ItemDef" "9572"}
+			"Wearable6" {"ItemDef" "4662"}
+		}
+--->
+npc_dota_hero_death_prophet
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "5965"}
+			"Wearable2" {"ItemDef" "505"}
+			"Wearable3" {"ItemDef" "568"}
+			"Wearable4" {"ItemDef" "9736"}
+			"Wearable5" {"ItemDef" "168"}
+			"Wearable6" {"ItemDef" "8028"}
+		}
+--->
+npc_dota_hero_drow_ranger
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10136"}
+			"Wearable2" {"ItemDef" "4630"}
+			"Wearable3" {"ItemDef" "4626"}
+			"Wearable4" {"ItemDef" "79"}
+			"Wearable5" {"ItemDef" "7232"}
+			"Wearable6" {"ItemDef" "7432"}
+		}
+--->
+npc_dota_hero_bristleback
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8813"}
+			"Wearable2" {"ItemDef" "5763"}
+			"Wearable3" {"ItemDef" "8366"}
+			"Wearable4" {"ItemDef" "520"}
+			"Wearable5" {"ItemDef" "5410"}
+			"Wearable6" {"ItemDef" "9150"}
+		}
+--->
+npc_dota_furion_treant
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8365"}
+		}
+--->
+npc_dota_hero_wisp
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9235"}
+			"Wearable2" {"ItemDef" "536"}
+		}
+--->
+npc_dota_phoenix_sun
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "630"}
+		}
+--->
+npc_dota_hero_sand_king
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7445"}
+			"Wearable2" {"ItemDef" "6610"}
+			"Wearable3" {"ItemDef" "8283"}
+			"Wearable4" {"ItemDef" "4940"}
+			"Wearable5" {"ItemDef" "198"}
+		}
+--->
+npc_dota_hero_slardar
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "512"}
+			"Wearable2" {"ItemDef" "276"}
+			"Wearable3" {"ItemDef" "9221"}
+			"Wearable4" {"ItemDef" "12664"}
+		}
+--->
+npc_dota_hero_jakiro
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "631"}
+			"Wearable2" {"ItemDef" "635"}
+			"Wearable3" {"ItemDef" "9745"}
+			"Wearable4" {"ItemDef" "9298"}
+			"Wearable5" {"ItemDef" "7820"}
+		}
+--->
+npc_dota_hero_windrunner
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "23"}
+			"Wearable2" {"ItemDef" "8964"}
+			"Wearable3" {"ItemDef" "5278"}
+			"Wearable4" {"ItemDef" "6039"}
+		}
+--->
+npc_dota_hero_winter_wyvern
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "553"}
+			"Wearable2" {"ItemDef" "8286"}
+			"Wearable3" {"ItemDef" "8017"}
+		}
+--->
+npc_dota_hero_morphling
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10154"}
+			"Wearable2" {"ItemDef" "5128"}
+			"Wearable3" {"ItemDef" "4263"}
+			"Wearable4" {"ItemDef" "577"}
+			"Wearable5" {"ItemDef" "507"}
+			"Wearable6" {"ItemDef" "8806"}
+		}
+--->
+npc_dota_sentry_wards
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7556"}
+		}
+--->
+npc_dota_hero_medusa
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "531"}
+			"Wearable2" {"ItemDef" "8715"}
+			"Wearable3" {"ItemDef" "385"}
+			"Wearable4" {"ItemDef" "12625"}
+			"Wearable5" {"ItemDef" "382"}
+		}
+--->
+npc_dota_hero_enigma
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8637"}
+			"Wearable2" {"ItemDef" "9474"}
+			"Wearable3" {"ItemDef" "498"}
+			"Wearable4" {"ItemDef" "9290"}
+			"Wearable5" {"ItemDef" "9471"}
+		}
+--->
+all
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8632"}
+		}
+--->
+npc_dota_hero_razor
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "343"}
+			"Wearable2" {"ItemDef" "513"}
+			"Wearable3" {"ItemDef" "7478"}
+			"Wearable4" {"ItemDef" "8613"}
+			"Wearable5" {"ItemDef" "344"}
+		}
+--->
+npc_dota_hero_shredder
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7024"}
+			"Wearable2" {"ItemDef" "8019"}
+			"Wearable3" {"ItemDef" "537"}
+			"Wearable4" {"ItemDef" "9552"}
+			"Wearable5" {"ItemDef" "400"}
+			"Wearable6" {"ItemDef" "9528"}
+		}
+--->
+npc_dota_hero_clinkz
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7868"}
+			"Wearable2" {"ItemDef" "7349"}
+			"Wearable3" {"ItemDef" "523"}
+			"Wearable4" {"ItemDef" "56"}
+			"Wearable5" {"ItemDef" "7347"}
+			"Wearable6" {"ItemDef" "4742"}
+		}
+--->
+npc_dota_hero_shadow_demon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "545"}
+			"Wearable2" {"ItemDef" "6574"}
+			"Wearable3" {"ItemDef" "399"}
+			"Wearable4" {"ItemDef" "6717"}
+			"Wearable5" {"ItemDef" "398"}
+		}
+--->
+npc_dota_greater_eidolon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8638"}
+		}
+--->
+npc_dota_hero_magnataur
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9710"}
+			"Wearable2" {"ItemDef" "9713"}
+			"Wearable3" {"ItemDef" "8156"}
+			"Wearable4" {"ItemDef" "8154"}
+		}
+--->
+npc_dota_hero_skeleton_king
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9602"}
+			"Wearable2" {"ItemDef" "5052"}
+			"Wearable3" {"ItemDef" "483"}
+			"Wearable4" {"ItemDef" "9940"}
+			"Wearable5" {"ItemDef" "500"}
+			"Wearable6" {"ItemDef" "8420"}
+		}
+--->
+npc_dota_hero_weaver
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "279"}
+			"Wearable2" {"ItemDef" "5635"}
+			"Wearable3" {"ItemDef" "5632"}
+			"Wearable4" {"ItemDef" "6131"}
+			"Wearable5" {"ItemDef" "277"}
+		}
+--->
+npc_dota_hero_keeper_of_the_light
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "528"}
+			"Wearable2" {"ItemDef" "9119"}
+			"Wearable3" {"ItemDef" "4866"}
+			"Wearable4" {"ItemDef" "256"}
+			"Wearable5" {"ItemDef" "9565"}
+		}
+--->
+dota_death_prophet_exorcism_spirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8652"}
+		}
+--->
+npc_dota_hero_kunkka
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10153"}
+			"Wearable2" {"ItemDef" "5465"}
+			"Wearable3" {"ItemDef" "8415"}
+			"Wearable4" {"ItemDef" "4032"}
+			"Wearable5" {"ItemDef" "5221"}
+			"Wearable6" {"ItemDef" "8094"}
+		}
+--->
+npc_dota_pugna_nether_ward
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8627"}
+		}
+--->
+npc_dota_eidolon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8638"}
+		}
+--->
+npc_dota_hero_queenofpain
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7755"}
+			"Wearable2" {"ItemDef" "4664"}
+			"Wearable3" {"ItemDef" "5185"}
+		}
+--->
+npc_dota_hero_storm_spirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8788"}
+			"Wearable2" {"ItemDef" "9028"}
+			"Wearable3" {"ItemDef" "6022"}
+		}
+--->
+npc_dota_hero_dark_willow
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12467"}
+			"Wearable2" {"ItemDef" "12469"}
+			"Wearable3" {"ItemDef" "12422"}
+			"Wearable4" {"ItemDef" "653"}
+			"Wearable5" {"ItemDef" "12468"}
+			"Wearable6" {"ItemDef" "651"}
+		}
+--->
+npc_dota_techies_stasis_trap
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8643"}
+		}
+--->
+npc_dota_hero_phantom_lancer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12909"}
+			"Wearable2" {"ItemDef" "127"}
+			"Wearable3" {"ItemDef" "637"}
+			"Wearable4" {"ItemDef" "7749"}
+			"Wearable5" {"ItemDef" "4409"}
+		}
+--->
+npc_dota_hero_spirit_breaker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "115"}
+			"Wearable2" {"ItemDef" "106"}
+			"Wearable3" {"ItemDef" "9902"}
+			"Wearable4" {"ItemDef" "116"}
+			"Wearable5" {"ItemDef" "114"}
+			"Wearable6" {"ItemDef" "8896"}
+		}
+--->
+npc_dota_hero_rattletrap
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8635"}
+			"Wearable2" {"ItemDef" "12736"}
+			"Wearable3" {"ItemDef" "9507"}
+			"Wearable4" {"ItemDef" "6414"}
+		}
+--->
+npc_dota_hero_terrorblade
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "540"}
+			"Wearable2" {"ItemDef" "8177"}
+			"Wearable3" {"ItemDef" "9501"}
+			"Wearable4" {"ItemDef" "7032"}
+			"Wearable5" {"ItemDef" "478"}
+		}
+--->
+npc_dota_hero_batrider
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7536"}
+			"Wearable2" {"ItemDef" "5144"}
+			"Wearable3" {"ItemDef" "9388"}
+			"Wearable4" {"ItemDef" "9237"}
+		}
+--->
+npc_dota_hero_phantom_assassin
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7115"}
+			"Wearable2" {"ItemDef" "9843"}
+			"Wearable3" {"ItemDef" "7114"}
+			"Wearable4" {"ItemDef" "8012"}
+		}
+--->
+npc_dota_hero_brewmaster
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9180"}
+			"Wearable2" {"ItemDef" "6966"}
+			"Wearable3" {"ItemDef" "9283"}
+			"Wearable4" {"ItemDef" "9949"}
+			"Wearable5" {"ItemDef" "9286"}
+		}
+--->
+npc_dota_techies_land_mine
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8644"}
+		}
+--->
+npc_dota_hero_treant
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8183"}
+			"Wearable2" {"ItemDef" "7806"}
+			"Wearable3" {"ItemDef" "7301"}
+			"Wearable4" {"ItemDef" "7808"}
+		}
+--->
+npc_dota_hero_juggernaut
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7909"}
+			"Wearable2" {"ItemDef" "8982"}
+			"Wearable3" {"ItemDef" "9813"}
+			"Wearable4" {"ItemDef" "10020"}
+			"Wearable5" {"ItemDef" "7164"}
+			"Wearable6" {"ItemDef" "8366"}
+		}
+--->
+npc_dota_hero_spectre
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7860"}
+			"Wearable2" {"ItemDef" "539"}
+			"Wearable3" {"ItemDef" "4901"}
+			"Wearable4" {"ItemDef" "5182"}
+			"Wearable5" {"ItemDef" "325"}
+			"Wearable6" {"ItemDef" "5311"}
+		}
+--->
+npc_dota_hero_mirana
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "6152"}
+			"Wearable2" {"ItemDef" "8538"}
+			"Wearable3" {"ItemDef" "7098"}
+			"Wearable4" {"ItemDef" "9270"}
+			"Wearable5" {"ItemDef" "405"}
+			"Wearable6" {"ItemDef" "4951"}
+		}
+--->
+npc_dota_hero_undying
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "616"}
+			"Wearable2" {"ItemDef" "6860"}
+			"Wearable3" {"ItemDef" "9330"}
+			"Wearable4" {"ItemDef" "542"}
+			"Wearable5" {"ItemDef" "9332"}
+			"Wearable6" {"ItemDef" "9331"}
+		}
+--->
+npc_dota_hero_omniknight
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10152"}
+			"Wearable2" {"ItemDef" "8170"}
+			"Wearable3" {"ItemDef" "4315"}
+			"Wearable4" {"ItemDef" "562"}
+			"Wearable5" {"ItemDef" "45"}
+			"Wearable6" {"ItemDef" "4139"}
+		}
+--->
+npc_dota_shadow_shaman_ward
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8371"}
+		}
+--->
+npc_dota_hero_crystal_maiden
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "41"}
+			"Wearable2" {"ItemDef" "9627"}
+			"Wearable3" {"ItemDef" "502"}
+			"Wearable4" {"ItemDef" "6686"}
+			"Wearable5" {"ItemDef" "5613"}
+		}
+--->
+npc_dota_hero_ursa
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10065"}
+			"Wearable2" {"ItemDef" "4215"}
+			"Wearable3" {"ItemDef" "5807"}
+			"Wearable4" {"ItemDef" "4292"}
+			"Wearable5" {"ItemDef" "4295"}
+		}
+--->
+npc_dota_techies_remote_mine
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8645"}
+		}
+--->
+npc_dota_hero_nyx_assassin
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9440"}
+			"Wearable2" {"ItemDef" "4797"}
+			"Wearable3" {"ItemDef" "9282"}
+		}
+--->
+npc_dota_hero_sven
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10063"}
+			"Wearable2" {"ItemDef" "8314"}
+			"Wearable3" {"ItemDef" "7981"}
+			"Wearable4" {"ItemDef" "8366"}
+			"Wearable5" {"ItemDef" "20"}
+			"Wearable6" {"ItemDef" "4210"}
+		}
+--->
+npc_dota_hero_earth_spirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "6432"}
+			"Wearable2" {"ItemDef" "482"}
+			"Wearable3" {"ItemDef" "526"}
+			"Wearable4" {"ItemDef" "8654"}
+			"Wearable5" {"ItemDef" "8903"}
+			"Wearable6" {"ItemDef" "6005"}
+		}
+--->
+npc_dota_hero_chaos_knight
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7088"}
+			"Wearable2" {"ItemDef" "5166"}
+			"Wearable3" {"ItemDef" "7137"}
+			"Wearable4" {"ItemDef" "6268"}
+		}
+--->
+npc_dota_hero_huskar
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9291"}
+			"Wearable2" {"ItemDef" "9293"}
+			"Wearable3" {"ItemDef" "7326"}
+			"Wearable4" {"ItemDef" "4907"}
+		}
+--->
+npc_dota_hero_alchemist
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "123"}
+			"Wearable2" {"ItemDef" "8407"}
+			"Wearable3" {"ItemDef" "5495"}
+			"Wearable4" {"ItemDef" "124"}
+			"Wearable5" {"ItemDef" "9402"}
+			"Wearable6" {"ItemDef" "8528"}
+		}
+--->
+npc_dota_hero_naga_siren
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9485"}
+			"Wearable2" {"ItemDef" "5863"}
+			"Wearable3" {"ItemDef" "532"}
+			"Wearable4" {"ItemDef" "5853"}
+			"Wearable5" {"ItemDef" "8607"}
+		}
+--->
+npc_dota_hero_vengefulspirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7110"}
+			"Wearable2" {"ItemDef" "517"}
+			"Wearable3" {"ItemDef" "7112"}
+			"Wearable4" {"ItemDef" "6515"}
+		}
+--->
+npc_dota_hero_ogre_magi
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "134"}
+			"Wearable2" {"ItemDef" "9226"}
+			"Wearable3" {"ItemDef" "534"}
+			"Wearable4" {"ItemDef" "7613"}
+			"Wearable5" {"ItemDef" "9227"}
+		}
+--->
+npc_dota_hero_tidehunter
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10035"}
+			"Wearable2" {"ItemDef" "37"}
+			"Wearable3" {"ItemDef" "7149"}
+			"Wearable4" {"ItemDef" "4093"}
+			"Wearable5" {"ItemDef" "9636"}
+			"Wearable6" {"ItemDef" "9634"}
+		}
+--->
+npc_dota_hero_disruptor
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "4450"}
+			"Wearable2" {"ItemDef" "9085"}
+			"Wearable3" {"ItemDef" "6740"}
+			"Wearable4" {"ItemDef" "525"}
+			"Wearable5" {"ItemDef" "6742"}
+			"Wearable6" {"ItemDef" "9380"}
+		}
+--->
+npc_dota_hero_pangolier
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "650"}
+			"Wearable2" {"ItemDef" "644"}
+			"Wearable3" {"ItemDef" "9850"}
+		}
+--->
+npc_dota_lesser_eidolon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8638"}
+		}
+--->
+npc_dota_hero_lycan
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "207"}
+			"Wearable2" {"ItemDef" "12892"}
+			"Wearable3" {"ItemDef" "12895"}
+			"Wearable4" {"ItemDef" "8649"}
+			"Wearable5" {"ItemDef" "4862"}
+			"Wearable6" {"ItemDef" "7044"}
+		}
+--->
+npc_dota_hero_oracle
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12603"}
+			"Wearable2" {"ItemDef" "550"}
+			"Wearable3" {"ItemDef" "12602"}
+			"Wearable4" {"ItemDef" "12601"}
+		}
+--->
+npc_dota_clinkz_skeleton_archer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "669"}
+		}
+--->
+npc_dota_hero_tusk
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9613"}
+			"Wearable2" {"ItemDef" "9006"}
+			"Wearable3" {"ItemDef" "541"}
+			"Wearable4" {"ItemDef" "9703"}
+			"Wearable5" {"ItemDef" "9007"}
+			"Wearable6" {"ItemDef" "9702"}
+		}
+--->
+npc_dota_hero_templar_assassin
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "514"}
+			"Wearable2" {"ItemDef" "20916"}
+			"Wearable3" {"ItemDef" "6901"}
+			"Wearable4" {"ItemDef" "8872"}
+			"Wearable5" {"ItemDef" "7433"}
+		}
+--->
+npc_dota_hero_riki
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7329"}
+			"Wearable2" {"ItemDef" "8366"}
+			"Wearable3" {"ItemDef" "4715"}
+			"Wearable4" {"ItemDef" "5523"}
+			"Wearable5" {"ItemDef" "7331"}
+			"Wearable6" {"ItemDef" "7976"}
+		}
+--->
+npc_dota_unit_tombstone
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8630"}
+		}
+--->
+npc_dota_hero_slark
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9537"}
+			"Wearable2" {"ItemDef" "9538"}
+			"Wearable3" {"ItemDef" "8366"}
+			"Wearable4" {"ItemDef" "538"}
+			"Wearable5" {"ItemDef" "354"}
+			"Wearable6" {"ItemDef" "4882"}
+		}
+--->
+npc_dota_hero_abaddon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "522"}
+			"Wearable2" {"ItemDef" "5694"}
+			"Wearable3" {"ItemDef" "9491"}
+			"Wearable4" {"ItemDef" "7367"}
+			"Wearable5" {"ItemDef" "5814"}
+		}
+--->
+npc_dota_hero_puck
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "6671"}
+			"Wearable2" {"ItemDef" "510"}
+			"Wearable3" {"ItemDef" "6177"}
+			"Wearable4" {"ItemDef" "6855"}
+		}
+--->
+npc_dota_hero_antimage
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7743"}
+			"Wearable2" {"ItemDef" "8596"}
+			"Wearable3" {"ItemDef" "9726"}
+			"Wearable4" {"ItemDef" "6326"}
+			"Wearable5" {"ItemDef" "5130"}
+			"Wearable6" {"ItemDef" "6205"}
+		}
+--->
+npc_dota_hero_legion_commander
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "5885"}
+			"Wearable2" {"ItemDef" "6034"}
+			"Wearable3" {"ItemDef" "662"}
+			"Wearable4" {"ItemDef" "8366"}
+			"Wearable5" {"ItemDef" "7222"}
+			"Wearable6" {"ItemDef" "12791"}
+		}
+--->
+npc_dota_hero_bane
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "503"}
+			"Wearable2" {"ItemDef" "7943"}
+			"Wearable3" {"ItemDef" "8549"}
+			"Wearable4" {"ItemDef" "7941"}
+			"Wearable5" {"ItemDef" "8550"}
+		}
+--->
+npc_dota_witch_doctor_death_ward
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "602"}
+		}
+--->
+npc_dota_hero_abyssal_underlord
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12294"}
+			"Wearable2" {"ItemDef" "617"}
+			"Wearable3" {"ItemDef" "622"}
+			"Wearable4" {"ItemDef" "9078"}
+		}
+--->
+npc_dota_hero_ancient_apparition
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12570"}
+			"Wearable2" {"ItemDef" "501"}
+			"Wearable3" {"ItemDef" "7462"}
+			"Wearable4" {"ItemDef" "12569"}
+			"Wearable5" {"ItemDef" "648"}
+		}
+--->
+npc_dota_hero_life_stealer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9106"}
+			"Wearable2" {"ItemDef" "8659"}
+			"Wearable3" {"ItemDef" "530"}
+			"Wearable4" {"ItemDef" "8658"}
+			"Wearable5" {"ItemDef" "9108"}
+		}
+--->
+npc_dota_hero_faceless_void
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10064"}
+			"Wearable2" {"ItemDef" "7816"}
+			"Wearable3" {"ItemDef" "4184"}
+			"Wearable4" {"ItemDef" "6282"}
+			"Wearable5" {"ItemDef" "7378"}
+		}
+--->
+npc_dota_hero_visage
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9051"}
+			"Wearable2" {"ItemDef" "543"}
+			"Wearable3" {"ItemDef" "7463"}
+			"Wearable4" {"ItemDef" "7997"}
+		}
+--->
+npc_dota_hero_shadow_shaman
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7511"}
+			"Wearable2" {"ItemDef" "9905"}
+			"Wearable3" {"ItemDef" "251"}
+			"Wearable4" {"ItemDef" "4412"}
+			"Wearable5" {"ItemDef" "7387"}
+			"Wearable6" {"ItemDef" "4417"}
+		}
+--->
+npc_dota_hero_elder_titan
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7832"}
+			"Wearable2" {"ItemDef" "6382"}
+			"Wearable3" {"ItemDef" "9240"}
+			"Wearable4" {"ItemDef" "8763"}
+		}
+--->
+npc_dota_hero_grimstroke
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "667"}
+			"Wearable2" {"ItemDef" "668"}
+			"Wearable3" {"ItemDef" "664"}
+		}
+--->
+npc_dota_hero_nevermore
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "509"}
+			"Wearable2" {"ItemDef" "9019"}
+			"Wearable3" {"ItemDef" "9494"}
+			"Wearable4" {"ItemDef" "9021"}
+		}
+--->
+npc_dota_hero_dazzle
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "4814"}
+			"Wearable2" {"ItemDef" "266"}
+			"Wearable3" {"ItemDef" "7356"}
+			"Wearable4" {"ItemDef" "7504"}
+		}
+--->
+npc_dota_visage_familiar
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "600"}
+		}
+--->
+npc_dota_observer_wards
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7555"}
+		}
+--->
+npc_dota_hero_tinker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7968"}
+			"Wearable2" {"ItemDef" "466"}
+			"Wearable3" {"ItemDef" "618"}
+			"Wearable4" {"ItemDef" "467"}
+			"Wearable5" {"ItemDef" "515"}
+			"Wearable6" {"ItemDef" "7143"}
+		}
+--->
+npc_dota_invoker_forged_spirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8625"}
+		}
+--->
+npc_dota_hero_viper
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9233"}
+			"Wearable2" {"ItemDef" "519"}
+			"Wearable3" {"ItemDef" "9670"}
+			"Wearable4" {"ItemDef" "623"}
+		}
+--->
+npc_dota_hero_lich
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7931"}
+			"Wearable2" {"ItemDef" "334"}
+			"Wearable3" {"ItemDef" "506"}
+			"Wearable4" {"ItemDef" "8601"}
+			"Wearable5" {"ItemDef" "6890"}
+			"Wearable6" {"ItemDef" "8451"}
+		}
+--->
+npc_dota_hero_ember_spirit
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7879"}
+			"Wearable2" {"ItemDef" "7001"}
+			"Wearable3" {"ItemDef" "8881"}
+			"Wearable4" {"ItemDef" "6014"}
+			"Wearable5" {"ItemDef" "8843"}
+		}
+--->
+npc_dota_hero_doom_bringer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7644"}
+			"Wearable2" {"ItemDef" "4631"}
+			"Wearable3" {"ItemDef" "236"}
+			"Wearable4" {"ItemDef" "6504"}
+			"Wearable5" {"ItemDef" "8047"}
+			"Wearable6" {"ItemDef" "6276"}
+		}
+--->
+npc_dota_hero_sniper
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8480"}
+			"Wearable2" {"ItemDef" "8241"}
+			"Wearable3" {"ItemDef" "4807"}
+			"Wearable4" {"ItemDef" "9096"}
+		}
+--->
+npc_dota_hero_invoker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10039"}
+			"Wearable2" {"ItemDef" "9418"}
+			"Wearable3" {"ItemDef" "7630"}
+			"Wearable4" {"ItemDef" "7231"}
+			"Wearable5" {"ItemDef" "98"}
+			"Wearable6" {"ItemDef" "7631"}
+		}
+--->
+npc_dota_hero_luna
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9391"}
+			"Wearable2" {"ItemDef" "453"}
+			"Wearable3" {"ItemDef" "452"}
+			"Wearable4" {"ItemDef" "5595"}
+			"Wearable5" {"ItemDef" "8488"}
+		}
+--->
+npc_dota_techies_minefield_sign
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8646"}
+		}
+--->
+npc_dota_hero_meepo
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7201"}
+			"Wearable2" {"ItemDef" "9837"}
+			"Wearable3" {"ItemDef" "6564"}
+			"Wearable4" {"ItemDef" "7202"}
+			"Wearable5" {"ItemDef" "4911"}
+		}
+--->
+npc_dota_hero_axe
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10022"}
+			"Wearable2" {"ItemDef" "8366"}
+			"Wearable3" {"ItemDef" "7760"}
+			"Wearable4" {"ItemDef" "9647"}
+			"Wearable5" {"ItemDef" "8469"}
+			"Wearable6" {"ItemDef" "4526"}
+		}
+--->
+npc_dota_hero_bloodseeker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10138"}
+			"Wearable2" {"ItemDef" "9821"}
+			"Wearable3" {"ItemDef" "4333"}
+			"Wearable4" {"ItemDef" "8838"}
+			"Wearable5" {"ItemDef" "6652"}
+			"Wearable6" {"ItemDef" "6795"}
+		}
+--->
+npc_dota_hero_centaur
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8248"}
+			"Wearable2" {"ItemDef" "8491"}
+			"Wearable3" {"ItemDef" "8366"}
+			"Wearable4" {"ItemDef" "6958"}
+			"Wearable5" {"ItemDef" "6961"}
+			"Wearable6" {"ItemDef" "9754"}
+		}
+--->
+npc_dota_hero_broodmother
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "4752"}
+			"Wearable2" {"ItemDef" "5514"}
+			"Wearable3" {"ItemDef" "8858"}
+			"Wearable4" {"ItemDef" "566"}
+			"Wearable5" {"ItemDef" "7939"}
+			"Wearable6" {"ItemDef" "9427"}
+		}
+--->
+npc_dota_hero_techies
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "6908"}
+			"Wearable2" {"ItemDef" "487"}
+			"Wearable3" {"ItemDef" "6879"}
+			"Wearable4" {"ItemDef" "492"}
+			"Wearable5" {"ItemDef" "9965"}
+			"Wearable6" {"ItemDef" "9960"}
+		}
+--->
+npc_dota_hero_lina
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8003"}
+			"Wearable2" {"ItemDef" "504"}
+			"Wearable3" {"ItemDef" "6750"}
+			"Wearable4" {"ItemDef" "7717"}
+			"Wearable5" {"ItemDef" "6339"}
+		}
+--->
+npc_dota_hero_bounty_hunter
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10032"}
+			"Wearable2" {"ItemDef" "6528"}
+			"Wearable3" {"ItemDef" "8949"}
+			"Wearable4" {"ItemDef" "4178"}
+			"Wearable5" {"ItemDef" "8950"}
+			"Wearable6" {"ItemDef" "53"}
+		}
+--->
+npc_dota_hero_zuus
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "605"}
+			"Wearable2" {"ItemDef" "7952"}
+			"Wearable3" {"ItemDef" "9039"}
+			"Wearable4" {"ItemDef" "7951"}
+			"Wearable5" {"ItemDef" "7954"}
+		}
+--->
+npc_dota_hero_dark_seer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12299"}
+			"Wearable2" {"ItemDef" "6770"}
+			"Wearable3" {"ItemDef" "524"}
+			"Wearable4" {"ItemDef" "5115"}
+			"Wearable5" {"ItemDef" "5120"}
+			"Wearable6" {"ItemDef" "5774"}
+		}
+--->
+npc_dota_hero_witch_doctor
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10034"}
+			"Wearable2" {"ItemDef" "9936"}
+			"Wearable3" {"ItemDef" "9932"}
+			"Wearable4" {"ItemDef" "4040"}
+			"Wearable5" {"ItemDef" "6955"}
+			"Wearable6" {"ItemDef" "7553"}
+		}
+--->
+npc_dota_hero_venomancer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9334"}
+			"Wearable2" {"ItemDef" "9337"}
+			"Wearable3" {"ItemDef" "518"}
+			"Wearable4" {"ItemDef" "9915"}
+			"Wearable5" {"ItemDef" "9338"}
+			"Wearable6" {"ItemDef" "8690"}
+		}
+--->
+npc_dota_hero_gyrocopter
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "5971"}
+			"Wearable2" {"ItemDef" "5968"}
+			"Wearable3" {"ItemDef" "131"}
+			"Wearable4" {"ItemDef" "9139"}
+			"Wearable5" {"ItemDef" "527"}
+			"Wearable6" {"ItemDef" "7823"}
+		}
+--->
+npc_dota_hero_rubick
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12427"}
+			"Wearable2" {"ItemDef" "544"}
+			"Wearable3" {"ItemDef" "8594"}
+			"Wearable4" {"ItemDef" "9005"}
+			"Wearable5" {"ItemDef" "8702"}
+		}
+--->
+npc_dota_hero_furion
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10021"}
+			"Wearable2" {"ItemDef" "6225"}
+			"Wearable3" {"ItemDef" "6286"}
+			"Wearable4" {"ItemDef" "9018"}
+			"Wearable5" {"ItemDef" "31"}
+			"Wearable6" {"ItemDef" "5718"}
+		}
+--->
+npc_dota_hero_night_stalker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8662"}
+			"Wearable2" {"ItemDef" "5086"}
+			"Wearable3" {"ItemDef" "5083"}
+			"Wearable4" {"ItemDef" "339"}
+			"Wearable5" {"ItemDef" "12288"}
+		}
+--->
+npc_dota_rattletrap_cog
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8636"}
+		}
+--->
+npc_dota_hero_dragon_knight
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "10135"}
+			"Wearable2" {"ItemDef" "9130"}
+			"Wearable3" {"ItemDef" "68"}
+			"Wearable4" {"ItemDef" "9644"}
+			"Wearable5" {"ItemDef" "7416"}
+			"Wearable6" {"ItemDef" "9134"}
+		}
+--->
+npc_dota_hero_obsidian_destroyer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "533"}
+			"Wearable2" {"ItemDef" "5211"}
+			"Wearable3" {"ItemDef" "20122"}
+			"Wearable4" {"ItemDef" "226"}
+			"Wearable5" {"ItemDef" "9370"}
+			"Wearable6" {"ItemDef" "4641"}
+		}
+--->
+npc_dota_hero_arc_warden
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7296"}
+			"Wearable2" {"ItemDef" "9623"}
+			"Wearable3" {"ItemDef" "9621"}
+			"Wearable4" {"ItemDef" "601"}
+			"Wearable5" {"ItemDef" "656"}
+		}
+--->
+npc_dota_hero_warlock
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "243"}
+			"Wearable2" {"ItemDef" "244"}
+			"Wearable3" {"ItemDef" "7254"}
+			"Wearable4" {"ItemDef" "8360"}
+			"Wearable5" {"ItemDef" "245"}
+			"Wearable6" {"ItemDef" "5729"}
+		}
+--->
+npc_dota_hero_beastmaster
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8222"}
+			"Wearable2" {"ItemDef" "316"}
+			"Wearable3" {"ItemDef" "6027"}
+			"Wearable4" {"ItemDef" "8190"}
+			"Wearable5" {"ItemDef" "9883"}
+			"Wearable6" {"ItemDef" "4659"}
+		}
+--->
+npc_dota_hero_lion
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7073"}
+			"Wearable2" {"ItemDef" "6024"}
+			"Wearable3" {"ItemDef" "8269"}
+			"Wearable4" {"ItemDef" "368"}
+		}
+--->
+npc_dota_hero_phoenix
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "627"}
+			"Wearable2" {"ItemDef" "535"}
+			"Wearable3" {"ItemDef" "9524"}
+			"Wearable4" {"ItemDef" "7835"}
+		}
+--->
+npc_dota_hero_pugna
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "511"}
+			"Wearable2" {"ItemDef" "6021"}
+			"Wearable3" {"ItemDef" "7573"}
+			"Wearable4" {"ItemDef" "5422"}
+			"Wearable5" {"ItemDef" "6020"}
+			"Wearable6" {"ItemDef" "8042"}
+		}
+--->
+npc_dota_hero_chen
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "5663"}
+			"Wearable2" {"ItemDef" "567"}
+			"Wearable3" {"ItemDef" "9157"}
+			"Wearable4" {"ItemDef" "521"}
+			"Wearable5" {"ItemDef" "224"}
+			"Wearable6" {"ItemDef" "9470"}
+		}
+--->
+npc_dota_warlock_golem
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8362"}
+		}
+--->
+npc_dota_hero_skywrath_mage
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "425"}
+			"Wearable2" {"ItemDef" "12521"}
+			"Wearable3" {"ItemDef" "5870"}
+			"Wearable4" {"ItemDef" "5871"}
+			"Wearable5" {"ItemDef" "7423"}
+		}
+--->
+npc_dota_hero_enchantress
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7641"}
+			"Wearable2" {"ItemDef" "286"}
+			"Wearable3" {"ItemDef" "6347"}
+			"Wearable4" {"ItemDef" "5745"}
+		}
+--->
+npc_dota_hero_necrolyte
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "508"}
+			"Wearable2" {"ItemDef" "6377"}
+			"Wearable3" {"ItemDef" "9760"}
+			"Wearable4" {"ItemDef" "7124"}
+			"Wearable5" {"ItemDef" "8927"}
+		}
+--->
+npc_dota_hero_tiny
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "6998"}
+			"Wearable2" {"ItemDef" "516"}
+			"Wearable3" {"ItemDef" "7267"}
+			"Wearable4" {"ItemDef" "494"}
+			"Wearable5" {"ItemDef" "6866"}
+		}
+--->
+npc_dota_hero_earthshaker
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "5630"}
+			"Wearable2" {"ItemDef" "6904"}
+			"Wearable3" {"ItemDef" "8366"}
+			"Wearable4" {"ItemDef" "5775"}
+		}
+--->
+npc_dota_dire_eidolon
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8638"}
+		}
+--->
+npc_dota_hero_pudge
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "7609"}
+			"Wearable2" {"ItemDef" "9194"}
+			"Wearable3" {"ItemDef" "391"}
+			"Wearable4" {"ItemDef" "5951"}
+			"Wearable5" {"ItemDef" "7610"}
+			"Wearable6" {"ItemDef" "7311"}
+		}
+--->
+npc_dota_hero_troll_warlord
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "374"}
+			"Wearable2" {"ItemDef" "380"}
+			"Wearable3" {"ItemDef" "379"}
+			"Wearable4" {"ItemDef" "12559"}
+			"Wearable5" {"ItemDef" "9596"}
+			"Wearable6" {"ItemDef" "7875"}
+		}
+--->
+npc_dota_hero_monkey_king
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "9195"}
+			"Wearable2" {"ItemDef" "608"}
+			"Wearable3" {"ItemDef" "12695"}
+		}
+--->
+npc_dota_hero_silencer
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "12910"}
+			"Wearable2" {"ItemDef" "12826"}
+			"Wearable3" {"ItemDef" "9111"}
+			"Wearable4" {"ItemDef" "8126"}
+			"Wearable5" {"ItemDef" "9113"}
+		}
+--->
+npc_dota_hero_leshrac
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "529"}
+			"Wearable2" {"ItemDef" "345"}
+			"Wearable3" {"ItemDef" "7732"}
+			"Wearable4" {"ItemDef" "4841"}
+			"Wearable5" {"ItemDef" "7731"}
+		}
+--->
+npc_dota_tusk_frozen_sigil
+"AttachWearables"
+		{
+			"Wearable1" {"ItemDef" "8640"}
+		}

@@ -1,0 +1,560 @@
+// Dota2 Editor
+// Get latest version: https://github.com/zombieJ/nw-dota2editor
+
+"DOTAAbilities"
+{
+	"Version"		"1"
+	"combo_attack"
+	{
+			
+	        "AbilityBehavior"     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	        "BaseClass"           "ability_datadriven"
+	        "AbilityTextureName"  "troll_warlord_fervor"
+		    "IsHidden"					"1"
+
+	        "Modifiers"
+	        {
+	        	"modifier_attack_faster"
+	        	{
+		        	"Passive" 					"1"
+		        	"ThinkInterval"				"0.33"
+		        	"Duration"					"-1"
+		        	"OnCreated"
+		        	{
+		        		"RunScript"
+                        {
+                        	"ScriptFile"	"modifiers/modifier_attack_faster.lua"
+							"Function"		"OnCreated"
+							"Target"		"CASTER"
+                        }
+		        	}
+	        		"OnAttack"
+	                {
+                        "RunScript"
+                        {
+                        	"ScriptFile"	"modifiers/modifier_attack_faster.lua"
+							"Function"		"OnAttack"
+							"Target"		"CASTER"
+                        }
+
+
+                        "AttachEffect"
+			             {
+			             	"Target" "CASTER"
+			             	"EffectName"                "particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff_f.vpcf"
+
+							"EffectAttachType"	"follow_origin"
+							"EffectLifeDurationScale" "2"
+			             }
+
+			             
+	                }
+
+	                "OnDealDamage"
+	                {
+                        "RunScript"
+                        {
+                        	"ScriptFile"	"modifiers/modifier_attack_faster.lua"
+							"Function"		"OnDealDamage"
+							"Target"		"CASTER"
+                        }
+
+                        "AttachEffect"
+			             {
+			             	"Target" "CASTER"
+			             	"EffectName"                "particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff_f.vpcf"
+
+							"EffectAttachType"	"follow_origin"
+							"EffectLifeDurationScale" "2"
+			             }
+	                }
+
+	                "OnIntervalThink"
+	                {
+	                	"RunScript"
+                        {
+                        	"ScriptFile"	"modifiers/modifier_attack_faster.lua"
+							"Function"		"OnIntervalThink"
+							"Target"		"CASTER"
+                        }
+	                }
+	                "precache"
+					{
+						"particles" "particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff_f.vpcf"
+					}
+					
+	        	}
+
+	        	"modifier_add_atksp"
+		        {
+		                "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"
+		                "TextureName"		"juggernaut_blade_dance"
+		                "Properties"
+		                {
+		                        "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"        "2"
+		                }
+		                "OnCreated"
+		                {
+		                	"AttachEffect"
+				             {
+			             		"Target" "CASTER"
+				             	"EffectName"                "particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff_f.vpcf"
+								"EffectLifeDurationScale" "1"
+								"EffectAttachType"	"follow_chest"
+				             }
+		                }
+						"precache"
+						{
+							"particles" "particles/units/heroes/hero_troll_warlord/troll_warlord_battletrance_buff_f.vpcf"
+						}
+		        }
+
+		        "modifier_max_atksp"
+		        {
+		        		//"IsHidden"					"1"
+		                "Duration"                "10"
+		        		"ThinkInterval"				"0.33"
+		                
+		                "Attributes"        "MODIFIER_ATTRIBUTE_MULTIPLE"
+		                "TextureName"		"juggernaut_blade_dance"
+		                "Properties"
+		                {
+		                        "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"        "300"
+		                }
+
+		                "OnCreated"
+		                {
+		                	"AttachEffect"
+				             {
+			             		"Target" "CASTER"
+				             	"EffectName"                "particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_teleport_model.vpcf"
+								"EffectLifeDurationScale" "1"
+								"EffectAttachType"	"follow_chest"
+				             }
+		                }
+
+		               "OnIntervalThink"
+		                {
+		                	"RunScript"
+	                        {
+	                        	"ScriptFile"	"modifiers/modifier_attack_faster.lua"
+								"Function"		"MaxAtkSpOnIntervalThink"
+								"Target"		"CASTER"
+	                        }
+		                }
+
+		                "precache"
+						{
+							"particles" "particles/econ/items/juggernaut/jugg_arcana/juggernaut_arcana_v2_teleport_model.vpcf"
+						}
+		        }
+
+		        "modifier_miss"
+		        {
+		        	"Passive" 					"1"
+		        
+		        	"Properties"
+				    {
+				        "MODIFIER_PROPERTY_EVASION_CONSTANT"      "100"
+				    }
+		        }
+	        }
+
+	}
+
+	"wudi"
+	{
+		"BaseClass"	"ability_datadriven"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityType"	"DOTA_ABILITY_TYPE_BASIC"
+
+		"Modifiers"
+		{
+			'wudi_modifier'
+			{
+				"Passive" "1"
+
+				"Properties"
+			    {
+			        "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_MAGICAL"      "1"
+			        "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL"     "1"
+			        "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PURE"     	"1"
+			    }
+			     "States"
+			    {
+			        "MODIFIER_STATE_UNSELECTABLE" "MODIFIER_STATE_VALUE_ENABLED"
+			    }      
+			}
+		}
+	}
+
+	"juggernaut_blade_dance"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"juggernaut_blade_dance"
+		"ID"					"5027"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_dance_crit_chance"	"100 100 100 100"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_dance_crit_mult"		"1"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
+		"Modifiers"
+		{
+
+		}
+		
+
+	}
+
+	"dragon_knight_elder_dragon_form"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"dragon_knight_elder_dragon_form"
+		"ID"							"5229"							// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"2"
+		"AbilitySound"					"Hero_DragonKnight.ElderDragonForm"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_INVALID"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"115"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"50 50 50"		
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.35"	// Attacks are primarily about the damage
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"60"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_movement_speed"		"30"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_attack_range"		"350"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_attack_damage"		"0"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"corrosive_breath_damage"	"0 0 0"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"corrosive_breath_duration"	"5.0 5.0 5.0"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"splash_radius"				"300"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"splash_damage_percent"		"75"
+				"LinkedSpecialBonus"			"special_bonus_unique_dragon_knight_6"
+			}
+			"09"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"frost_bonus_movement_speed"	"-30"
+				"LinkedSpecialBonus"			"special_bonus_unique_dragon_knight_5"
+			}
+			"10"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"frost_bonus_attack_speed"		"-30"
+				"LinkedSpecialBonus"			"special_bonus_unique_dragon_knight_5"
+			}
+			"11"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"frost_duration"				"3.0 3.0 3.0"
+			}
+			"12"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"frost_aoe"					"300"
+			}
+			
+		}
+	}
+
+	"juggernaut_blade_fury"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"juggernaut_blade_fury"
+		"ID"					"5028"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+	
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0 0 0 0"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10 10 10 10"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0 0 0 0"		
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"blade_fury_damage_tick"	"0.3"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_fury_radius"			"700"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"blade_fury_damage"			"90 115 140 160"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut_3"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"2.0"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	"juggernaut_omni_slash"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"				"juggernaut_omni_slash"
+		"ID"					"5030"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"FightRecapLevel"				"2"
+
+		"HasScepterUpgrade"			"1"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.3 0.3 0.3"
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"10 10 10"
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0 0 0"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.0"	// damage only
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"attack_rate_multiplier"	"1.5"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"30 40 50"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"2 2 2"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut_2"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"omni_slash_radius"			"425"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"duration_scepter"		"1 1 1"
+				"LinkedSpecialBonus"		"special_bonus_unique_juggernaut_2"
+			}
+			"06"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"cooldown_scepter"	"70"
+			}
+		}
+	}
+
+	"act_victory"
+	{
+		"BaseClass"	"ability_datadriven"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"precache"
+		{
+			"particle"	"particles/units/heroes/hero_legion_commander/legion_commander_duel_victory.vpcf"
+		}
+		"Modifiers"
+		{
+			"modifier_act_victory"
+			{
+				"Passive"	"1"
+				"IsHidden"	"1"
+				"OverrideAnimation"	"ACT_DOTA_VICTORY"
+				"States"	{}
+				"Properties"	{}
+				"EffectName"	"particles/units/heroes/hero_legion_commander/legion_commander_duel_victory.vpcf"
+				"EffectAttachType"	"follow_overhead"
+			}
+		}
+	}
+
+	"fast_move_w"
+	{
+		"BaseClass" "ability_lua"
+		"AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_POINT"
+		"ScriptFile"					    "scripts/vscripts/ability/fast_move.lua"
+	}
+
+	"fast_move_a"
+	{
+		"BaseClass" "ability_lua"
+		"AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"ScriptFile"					    "scripts/vscripts/ability/fast_move.lua"
+	}
+
+	"fast_move_s"
+	{
+		"BaseClass" "ability_lua"
+		"AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+		"ScriptFile"					    "scripts/vscripts/ability/fast_move.lua"
+	}
+	"fast_move_d"
+	{
+		"BaseClass" "ability_lua"
+		"AbilityBehavior"                   "DOTA_ABILITY_BEHAVIOR_NO_TARGET "
+		"ScriptFile"					    "scripts/vscripts/ability/fast_move.lua"
+	}
+
+	"faceless_void_time_walk"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"5182"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilitySound"					"Hero_FacelessVoid.TimeWalk"
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.05"
+
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"2 2 2 2"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"0"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.25"	// mostly about the blink
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed"					"3000"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"300"
+				"LinkedSpecialBonus"	"special_bonus_unique_faceless_void"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"backtrack_duration"	"2.0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+
+	
+}	

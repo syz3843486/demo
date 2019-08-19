@@ -1,0 +1,146 @@
+
+
+.BooksPage
+{
+	width: 60%;
+	height: 80%;
+	flow-children: down;
+	horizontal-align: center;
+	vertical-align: top;
+	padding:100px 1px 1px 1px;
+	visibility: collapse;
+}
+
+.BooksPage #TitilePanel
+{
+	padding:10px 1px 1px 1px;
+	text-align: center;
+	width: 100%;
+	height: 8%;
+    color: #FFFFFF;
+	font-size: 30;
+	background-color: #000000FF;
+	flow-children: down;
+}
+
+.BooksPage #TitilePanel #BooksPageCloseBtn
+{
+	background-image: url("file://{images}/custom_game/menu/cha.png");
+	width: 50px;
+	height: 50px;
+	horizontal-align: right;
+	vertical-align: top;
+    background-repeat: no-repeat round;
+    background-repeat: no-repeat space;
+    background-size: 100% 100%;
+}
+
+.BooksPage #TitilePanel #BooksPageCloseBtn:hover 
+{
+    brightness:2;
+}
+
+.BooksPage .SubTile
+{
+	background-color: #000000AF;
+	width: 100%;
+	height: 5%;
+	flow-children: right;
+	padding:0px 0px 0px 10px;
+	
+}
+
+.SubTile #SubTile_Name
+{
+	background-color: #000000AF;
+	font-size: 30;
+	width: 15%;
+	text-align: center;
+}
+
+.SubTile #SubTile_Desc
+{
+	background-color: #000000AF;
+	font-size: 30;
+	width: 50%;
+	text-align: center;
+	margin:0px 0px 0px 2px;
+}
+
+.SubTile #SubTile_MaxScore
+{
+	background-color: #000000AF;
+	font-size: 30;
+	width: 20%;
+	text-align: center;
+	margin:0px 0px 0px 2px;
+}
+
+.BooksPage #ContextPanel
+{
+	background-color: #000000AF;
+	width: 100%;
+	height: 75%;
+	overflow: squish scroll;
+	flow-children: down;
+}
+
+.BookDetailRoot
+{
+	margin:10px 10px 10px 10px;
+	width: 100%;
+	height: 70px;
+	flow-children: right;
+}
+
+.BookDetailRoot #BookButton
+{
+	width: 15%;
+	height: 100%;
+	background-color: #000000AF;
+	border: 5px solid #333333FF;
+}
+
+.BookDetailRoot #BookButton:hover 
+{
+	brightness:2;
+}
+
+.BookDetailRoot #BookButton #BookName
+{
+	horizontal-align: center;
+    vertical-align: middle;
+	text-align: center;
+    color: #FFFFFF;
+	font-size: 20;
+}
+
+.BookDetailRoot #BookDesc
+{
+	/*horizontal-align: center;
+    vertical-align: middle;*/
+	width: 50%;
+	height: 100%;
+	padding: 15px 0px 0px;
+	margin:0px 0px 0px 2px;
+    vertical-align: center;
+	text-align: left;
+    color: #FFFFFF;
+	font-size: 30;
+	background-color: #000000AF;
+	border: 1px solid #333333FF;
+}
+
+.BookDetailRoot #MaxScore
+{
+	width: 20%;
+	height: 100%;
+	padding: 15px 0px 0px;
+	margin:0px 0px 0px 2px;
+    vertical-align: center;
+	text-align: center;
+    color: #FFFFFF;
+	font-size: 30;
+	background-color: #000000AF;
+	border: 1px solid #333333FF;
+}

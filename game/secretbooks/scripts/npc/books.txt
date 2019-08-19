@@ -1,0 +1,33 @@
+// Dota Heroes File
+"Books"
+{
+	"01" 
+	{
+		"name"		"dugujiujian"
+		"pic"       "file://{images}/custom_game/menu/jianke.png"
+	}
+
+	"02" 
+	{
+		"name"		"dugujiujian"
+		"pic"       "file://{images}/custom_game/menu/jianke.png"
+	}
+
+	"03" 
+	{
+		"name"		"dugujiujian"
+		"pic"       "file://{images}/custom_game/menu/jianke.png"
+	}
+
+	"04" 
+	{
+		"name"		"dugujiujian"
+		"pic"       "file://{images}/custom_game/menu/jianke.png"
+	}
+
+	"05" 
+	{
+		"name"		"dugujiujian"
+		"pic"       "file://{images}/custom_game/menu/jianke.png"
+	}
+}

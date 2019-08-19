@@ -1,0 +1,80 @@
+.root{
+    width: 100%;
+    height: 100%;
+}
+#Round_Text{
+	width: 300px;
+	font-style: italic;
+	font-size: 50;
+	margin-left: 16px;
+    margin-top: 100px;
+}
+
+#Score_Text{
+	width: 300px;
+	font-style: italic;
+	font-size: 50;
+	margin-left: 16px;
+    margin-top: 200px;
+}
+
+#Combo_Text{
+	width: 300px;
+	font-style: italic;
+	font-size: 50;
+	margin-left: 16px;
+    margin-top: 300px;
+}
+
+#Reset_Button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 16px;
+    margin-top: 400px;
+}
+
+#Speed_Button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	width: 150px;
+	height: 50px;
+    margin-left: 16px;
+    margin-top: 450px;
+}
+
+/*#Combo_Panel{
+    width: 600px;
+    font-style: italic;
+    font-size: 100;
+    margin-right: 16px;
+    margin-top: 600px;
+}
+*/
+
+
+#Reset_Button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    margin-left: 16px;
+    margin-top: 400px;
+}
+
+
+/*.Combo_Root {
+    width: 100%;
+    height: 100%;
+}*/

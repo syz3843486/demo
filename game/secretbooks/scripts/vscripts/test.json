@@ -1,0 +1,35 @@
+{
+    "root": {
+        "@config": "NPC_AI",
+        "node": {
+            "@class": "SelectorNode",
+            "arg": [
+                {
+                    "@alias": "comment",
+                    "@value": ""
+                },
+                {
+                    "@alias": "debug",
+                    "@value": "break_por"
+                },
+                {
+                    "@alias": "debug_open",
+                    "@value": "1"
+                }
+            ],
+            "node": {
+                "@class": "TestNode",
+                "arg": [
+                    {
+                        "@alias": "debug",
+                        "@value": "1111"
+                    },
+                    {
+                        "@alias": "debug_open",
+                        "@value": "1"
+                    }
+                ]
+            }
+        }
+    }
+}

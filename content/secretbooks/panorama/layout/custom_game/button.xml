@@ -1,0 +1,20 @@
+<root>
+    <styles>
+          <include src="file://{resources}/styles/dotastyles.css" />
+          <include src="file://{resources}/styles/custom_game/button.css" />
+     </styles>
+     <script>
+            function SendEvent(){
+                  GameEvents.SendCustomGameEventToServer("custom_event",{ "key1" : "value1", "key2" : "value2" });    //Client JavaScript向Server Lua发送事件和数据
+            }
+            function Print(){
+              print("help!!!!!!!!")
+            }
+
+      </script>
+     <Panel class="panel" onactivate="Print()">
+          <Button id="button" onactivate="SendEvent()">     //点击按钮后，回调SendEvent()   
+                <Label text="Send Event" />
+          </Button> 
+     </Panel>
+</root>

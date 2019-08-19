@@ -1,0 +1,86 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/layout/custom_game/main.css" />
+		<include src="file://{resources}/layout/custom_game/main_books_page.css" />
+	</styles>
+	<scripts>
+	   <include src="file://{resources}/layout/custom_game/main.js" />
+	   <include src="file://{resources}/layout/custom_game/main_books_page.js" />
+	</scripts>
+	
+    <snippets>
+    	<snippet name="BookDetail">
+            <Panel class="BookDetailRoot">
+				<Button id="BookButton" >
+					<Label id="BookName" text="秘籍名字"/>
+				</Button>
+				<Label id="BookDesc" text="秘籍描述"/>
+				<Label id="MaxScore" text="获取中.."/>
+			</Panel>
+        </snippet>
+        <snippet name="HeroImage">
+			<DOTAHeroImage heroname="npc_dota_hero_juggernaut" class="HeroImage" />
+        </snippet>
+
+    </snippets>
+
+
+	<Panel hittest="false" class="Root" >
+		 <Panel id="MainMenuPanel"  >
+		 		<Panel id="BackGroundPanel">
+		 			<Image id="background" scaling="stretch" />
+		 			<Panel id="img"  />
+		 		</Panel>
+		 		<Panel id="MainMenuButtonsPanel">
+		 			<Panel id="MainMenuButtons"  >
+			 			<Button id="books" class="MenuBtn" onactivate="OnOpenBooksPage()" >
+			 				<Label class="MenuText" text="#books" />
+			 			</Button>
+					 	<Button id="help" class="MenuBtn" >
+					 		<Label class="MenuText" text="#help" />
+			 			</Button>
+			 			<Button id="vote" class="MenuBtn" >
+					 		<Label class="MenuText" text="#vote" />
+			 			</Button>
+			 		</Panel>
+			 		<Button id="close_btn" onactivate="OnCloseBtn()"/>
+		 		</Panel>
+		 		<!-- <Image id="background"/> -->
+		 		
+		</Panel>
+		<Button id="mainBtn" class="MenuBtn" onactivate="OnMenuBtn()" >
+		 	<Label id="btn_label" text="#main_btn" />
+		</Button>
+		
+		<Panel class="HeroBar" id='HeroBar' >
+			<Panel class="HeroBarCenter" id='HeroBarCenter'/>
+		</Panel>
+
+		<Panel class="BooksPage" id="BooksPage" >
+			<Label id="TitilePanel" text="#books">
+				<Panel id="BooksPageCloseBtn" onactivate="OnBooksPageCloseBtn()" />
+			</Label>
+			<Panel class="SubTile">
+				<Label id="SubTile_Name" text="#name"/>
+				<Label id="SubTile_Desc" text="#desc"/>
+				<Label id="SubTile_MaxScore" text="#maxscore"/>
+			</Panel>
+			<Panel id="ContextPanel">
+					
+			</Panel>
+		</Panel>
+
+		<Panel class="RoundRst" id="RoundRst">
+			<Button id="close_btn" onactivate="OnCloseRoundRstBtn()"/>
+			<Panel class="RoundRst_Panel">
+				<Label class="RoundRst_Label" id="RoundRst_Name" text="名字"/>
+				<Label class="RoundRst_Label" id="RoundRst_CurScore" text="本次分数"/>
+				<Label class="RoundRst_Label" id="RoundRst_MaxScore" text="历史最高分"/>
+			</Panel>
+			<Button id="RoundRst_Restart_Btn" onactivate="OnRestart()" >
+		 		<Label class="RoundRst_Label" id="RoundRst_Restart_Lable" text="#restart" />
+			</Button>
+		</Panel>
+	</Panel>
+</root>
